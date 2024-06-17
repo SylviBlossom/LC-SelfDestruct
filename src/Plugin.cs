@@ -40,11 +40,15 @@ public class Plugin : BaseUnityPlugin
 		{
 			return;
 		}
+		if (!Input.SelfDestruct.triggered)
+		{
+			return;
+		}
 		if (!__instance.AllowPlayerDeath())
 		{
 			return;
 		}
-		if (!Input.SelfDestruct.triggered)
+		if (__instance.isTypingChat || __instance.inSpecialInteractAnimation || __instance.inTerminalMenu)
 		{
 			return;
 		}
