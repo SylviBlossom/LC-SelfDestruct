@@ -22,7 +22,7 @@
 
     <ItemGroup>
       <Reference Include="Assembly-CSharp">
-        <HintPath>..\lib-stripped\Managed-v50-strip\Assembly-CSharp.dll</HintPath>
+        <HintPath>..\lib-stripped\Managed-v60-strip\Assembly-CSharp.dll</HintPath>
       </Reference>
       <Reference Include="LethalCompanyInputUtils">
         <HintPath>..\lib-stripped\Mods-strip\LethalCompanyInputUtils.dll</HintPath>
